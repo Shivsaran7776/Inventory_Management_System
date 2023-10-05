@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+            "code" : "101",
+            "name" : "Product 1",
+            "category" : "Category 1",
+            "quantity" : "100"
+        },
+        {
+            "code" : "102",
+            "name" : "Product 2",
+            "category" : "Category 4",
+            "quantity" : "50"
+        },
+        {
+            "code" : "103",
+            "name" : "Product 3",
+            "category" : "Category 4",
+            "quantity" : "50"
+        },
+        {
+            "code" : "104",
+            "name" : "Product 2",
+            "category" : "Category 1",
+            "quantity" : "50"
+        },
+        {
+            "code" : "105",
+            "name" : "Product 5",
+            "category" : "Category 2",
+            "quantity" : "70"
+        }
+    ]
+}

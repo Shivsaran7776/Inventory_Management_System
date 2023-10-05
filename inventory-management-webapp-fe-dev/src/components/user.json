@@ -1,0 +1,18 @@
+{
+    "data":[
+        {"name":"Harini Manickam" , "email":"harini@gmail.com","role":"Admin","status":"Joined"},
+        {"name":"Rohini G" , "email":"rohini@technofogos.com","role":"Admin","status":"Invite sent"},
+        {
+            "name": "Prem",
+            "email": "prem@gmail.com",
+            "role": "Sales",
+            "status": "Invite sent"
+        },
+        {
+            "name": "Shreya",
+            "email": "shreya@yahoo.com",
+            "role": "Accounts",
+            "status": "Joined"
+        }
+    ]
+}

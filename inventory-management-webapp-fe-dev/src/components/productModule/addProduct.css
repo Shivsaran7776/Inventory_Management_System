@@ -1,0 +1,112 @@
+.container-addProduct form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background-color:rgba(143, 143, 143, 0.35);
+    width: 91vw;
+}
+
+.container-addProduct form .left-addProduct {
+    width: 30%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-addProduct form .right-addProduct {
+    width: 70%;
+}
+
+
+
+.container-addProduct .right-addProduct .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.container-addProduct .right-addProduct .row .col25 {
+    width: 25%;
+}
+
+.container-addProduct .right-addProduct .row .col75 {
+    width: 75%;
+}
+
+.container-addProduct .right-addProduct .row .col50 {
+    width: 50%;
+}
+
+.container-addProduct .right-addProduct .row .col75 input[type=text],
+textarea {
+    width: 65%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container-addProduct .right-addProduct .row .col75 input[type=checkbox] {
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.salesType .stype,
+.addItemType .aitype,
+.gItemCat .gCat {
+    display: flex;
+    align-items: center;
+}
+
+.salesType .stype>*,
+.addItemType .aitype>*,
+.gItemCat .gCat>* {
+    margin-right: 1rem;
+}
+
+.addProduct-btns,
+.addCategory-btns {
+    width: 200px;
+    height: 30px;
+    margin: 1rem;
+    background-color: #0DD3AD;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.addCategory-btns {
+    background-color: #4c4d4d;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .container-addProduct form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-addProduct form .left-addProduct {
+        width: 100%;
+    }
+
+    .container-addProduct form .right-addProduct {
+        width: 100%;
+    }
+
+    .container-addProduct .right-addProduct .row {
+        flex-direction: column;
+    }
+
+
+    .container-addProduct .right-addProduct .row .col25,
+    .container-addProduct .right-addProduct .row .col75,
+    .container-addProduct .right-addProduct .row .col50 {
+        width: 100%;
+    }
+}

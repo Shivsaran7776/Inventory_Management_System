@@ -1,0 +1,169 @@
+.addprod {
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgba(143, 143, 143, 0.35);
+
+    
+}
+
+.ap-grid {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    height: 90vh;
+    width: 91.5vw; 
+    margin: auto;
+    overflow: auto;
+
+}
+
+.bsform {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.p-inputgroup {
+    margin-bottom: 20px;
+}
+
+.p-inputgroup input {
+    height: 40px;
+}
+
+.p-inputgroup span {
+    height: 40px;
+}
+
+.dp {
+    width: 100%;
+}
+
+.gicon {
+    height: 16px;
+    width: 16px;
+    padding-top: 8px;
+    color: #565454;
+}
+
+.p-inputgroup-check {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.p-checkbox {
+    margin: 10px;
+}
+
+
+.bflex {
+    display: flex;
+    gap: 100px;
+}
+
+.fbtns {
+    display: flex;
+    gap: 18px;
+    margin-top: 10px;
+    justify-content:flex-end;
+    padding-bottom: 20px;
+}
+
+.p-button {
+    height: 38px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+.p-fileupload {
+    position: absolute;
+    top: 100;
+    left: 60%;
+}	
+
+.p-fileupload-buttonbar button {
+    background-color: red;
+}
+
+.image-card {
+    width: 40%;
+    margin: auto;
+}
+
+.dialog-span {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+
+.vwform {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    height: 50vh;
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+#proid {
+    color: red;
+}
+
+.orderCenter {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.sale-btns {
+    width: 50%;
+}
+
+#apid {
+    color: #007bff;
+}
+
+.sl-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    height: 360px;
+}
+
+.sleft , .sright {
+    margin: 30px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDE6ED;
+
+}
+
+.sl-grid p {
+    padding: 28px;
+    text-align: justify;
+}

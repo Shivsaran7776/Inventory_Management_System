@@ -1,0 +1,227 @@
+.loginFormContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #E8E7E4;
+}
+
+.left {
+    width: 55%;
+    height: 100vh;
+    background: url("../images/login_Front_img.png");
+    background-size: cover;
+}
+
+.left #login-logo {
+    color: #0DD3AD;
+    margin: 2rem 0 0 2rem;
+}
+
+.right {
+    background: white;
+    width: 45%;
+    height: 100vh;
+}
+
+.right h1 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.right .CreateAccountForm {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+.input-group .otpin {
+    width: 67px;
+    height: 62px;
+    background-color: #EDF0F2;
+    border: none;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    color: #8F8F8F;
+    margin: 0 4px;
+    border-radius: 0;
+}
+
+.input-group-otp {
+    padding-right: 30px;
+}
+
+#otp {
+    text-align: left;
+    font-size: 16px;
+    padding: 20px 20px 20px 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#resend {
+    text-align: right;
+    margin: 10px 0px 0px 15px;
+    text-decoration: none;
+    color: #101540;
+    cursor: pointer;
+}
+
+.loginEl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginEl label {
+    padding: 0px;
+}
+
+.loginEl .check {
+    display: flex;
+    align-items: center;
+}
+
+.loginEl .check input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.loginEl-link {
+    text-decoration: none;
+    color: black;
+}
+
+.input-group input {
+    background-color: #EDF0F2;
+    color: #8F8F8F;
+    width: 390px;
+    height: 50px;
+    padding: 12px 10px;
+    border: 1px solid #8F8F8F;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.greenButton {
+    margin-top: 20px;
+    background: #0DD3AD;
+    border-radius: 20px;
+    height: 50px;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-alert {
+    color: #FF0000;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 390px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .loginFormContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        background: white;
+        width: 100%;
+        height: auto;
+    }
+
+    .left {
+        width: 100%;
+        height: 100vh;
+        background: #E8E7E4;
+        background: url("../images/login_Front_img.png");
+        background-size: cover;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .loginFormContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        background: white;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .right .CreateAccountForm {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        width: 100%;
+        height: 15vh;
+        background: none;
+        background-size: cover;
+        padding: 0;
+        text-align: center;
+        background-color: white;
+    }
+
+    .input-group input {
+        width: 300px;
+    }
+}
+
+
+/* login */
+
+.loginFormContainer .right .rmFp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginFormContainer .right .rmFp .rm {
+    width: 20px;
+    height: 20px;
+}
